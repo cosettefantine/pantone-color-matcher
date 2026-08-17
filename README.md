@@ -5,6 +5,16 @@
 >
 > This dataset uses a **semicolon (`;`)** as the CSV delimiter.  
 > Do not replace it with a comma (`,`).
+>
+> **Dependency Requirements**
+> 
+>   *Python Dependencies*
+> 
+>     pyserial>=3.5 
+>
+>   *C++ Libraries*
+> 
+>     Adafruit TCS34725
 
 ## Abstract
 
