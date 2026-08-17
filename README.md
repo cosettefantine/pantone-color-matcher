@@ -1,5 +1,11 @@
 # Pantone Color Matching GUI Using RGB Color Sensor Data
 
+> [!WARNING]
+> **Dataset Format**
+>
+> This dataset uses a **semicolon (`;`)** as the CSV delimiter.  
+> Do not replace it with a comma (`,`).
+
 ## Abstract
 
 This project presents a real-time Pantone color matching system developed using Arduino Mega 2560, Raspberry Pi 3 B, and a color sensor. The system acquires RGB data from physical objects through a sensor mounted on a pan-tilt mechanism and applies software calibration and preprocessing for more accurate color detection. The processed color data is compared with a CSV dataset containing approximate Pantone RGB values to determine the closest Pantone shade. A graphical user interface running on the Raspberry Pi displays both the detected color and the corresponding Pantone color together with their RGB values in real time. The developed system provides a portable and practical solution for color comparison, reproduction, and basic applications aimed at detecting manufacturing defects.
@@ -83,6 +89,8 @@ Raw RGB values provided by colour sensors often do not match real-world and vary
 **Battery:** 18650 Battery is a rechargeable lithium-ion battery.
 
 ## Methodology
+
+Note: The dataset uses semicolon (`;`) as the CSV delimiter.
 
 ### 1. System Desing Approach
 
