@@ -1,1 +1,3 @@
+# Pantone Color Matcher - Python Dependencies
 
+pyserial>=3.5
